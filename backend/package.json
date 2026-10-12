@@ -1,0 +1,29 @@
+{
+  "name": "estateflow-backend",
+  "version": "1.0.0",
+  "description": "EstateFlow Real Estate Sales Management System - Oracle Database Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "inspect": "node scripts/inspect-db.js"
+  },
+  "keywords": [
+    "real-estate",
+    "oracle",
+    "express",
+    "sales-management"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "oracledb": "^6.7.1"
+  }
+}

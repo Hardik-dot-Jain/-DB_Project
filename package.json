@@ -1,0 +1,26 @@
+{
+  "name": "estateflow-desktop",
+  "version": "1.0.0",
+  "description": "EstateFlow Real Estate Sales Management System - Standalone Electron Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "desktop": "electron .",
+    "start": "electron .",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "electron",
+    "oracle-database",
+    "real-estate",
+    "desktop-app",
+    "express",
+    "react"
+  ],
+  "author": "EstateFlow Engineering",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^44.7.0",
+    "electron-is-dev": "^3.0.1"
+  }
+}
